@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Sneha<span>Solanki</span></a>
+            
+            <!-- Navigation always visible - no hamburger -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-page="about">About Me</a></li>
+                <li><a href="#skills" class="nav-link" data-page="skills">Skills</a></li>
+                <li><a href="#assignments" class="nav-link" data-page="assignments">Assignments</a></li>
+                <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+            
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Homepage - ORIGINAL DESIGN -->
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <div class="floating-shapes">
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                </div>
+                
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="name-title">S S</h1>
+                        
+                        <div class="tagline">
+                            <span> Hi </span>
+                            <span class="tagline-separator">|</span>
+                            <span> I'm </span>
+                            <span class="tagline-separator">|</span>
+                            <span>Sneha Solanki</span>
+                        </div>
+                        
+                        <p class="description">
+                            <!-- Transforming data into intelligent solutions through cutting-edge AI, machine learning and natural language processing. -->
+                             "Currently, I am pursuing an Integrated MCA from the International Institute of Professional Studies.
+                        </p>
+                        
+                        <div class="cta-buttons">
+                            <a href="#assignments" class="btn btn-primary" data-page="assignments">
+                                <i class="fas fa-code"></i> View Assignments
+                            </a>
+                            <a href="#contact" class="btn btn-secondary" data-page="contact">
+                                <i class="fas fa-envelope"></i> Contact Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Page -->
+        <section id="about" class="page">
+            <div class="container section-content">
+                <div class="section-header">
+                    <h1>About Me</h1>
+                    <p>Get to know my professional journey </p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="card" style="padding: 40px;">
+                            <h2> Hi, I'm student at iips DAVV</h2>
+                            <p>I primarily work as a front-end software developer, specializing in both MEAN and MERN stacks..</p>
+                            <p> In addition to coding, I am passionate about exploring emerging technology trends and continuously enhancing my skills. I enjoy working on collaborative projects, contributing to open-source communities, and attending tech meetups to connect with fellow developers. My strong problem-solving abilities and commitment to lifelong learning help me stay adaptable and motivated for any challenge I take on.</p>
+                            
+                            <!-- <p><strong>Domain:</strong> Machine Learning, NLP, AI (GenAI & LLMs)</p> -->
+                        </div>
+                        
+                        <div style="margin-top: 40px;">
+                            <h3 style="margin-bottom: 15px; color: var(--primary-color);">Connect With Me</h3>
+                            <div class="contact-info">
+                                <div class="card contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <h3>Email</h3>
+                                    <p>snehasolanki3095@gmail.com</p>
+                                </div>
+                                <div class="card contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <h3>Phone</h3>
+                                    <p>+91 99774 75621</p>
+                                </div>
+                                <div class="card contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <h3>Location</h3>
+                                    <p>India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="photo.png" alt="Sneha" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Page -->
+        <section id="skills" class="page">
+            <div class="container section-content">
+                <div class="section-header">
+                    <h1>Technical Skills</h1>
+                    <p>My programming and web development skills</p>
+                </div>
+                
+                <!-- Your Actual Programming Skills -->
+                <div class="programming-skills-section">
+                    <div class="card" style="padding: 40px;">
+                        <h3>Programming Languages & Web Technologies</h3>
+                        <p style="text-align: center; margin-bottom: 25px; color: var(--secondary-color);">
+                            Programming languages and web technologies I'm proficient in
+                        </p>
+                        <div class="skills-badges">
+                            <span class="skill-badge">C</span>
+                            <span class="skill-badge">C++</span>
+                            <span class="skill-badge">JAVA</span>
+                            <span class="skill-badge">PYTHON</span>
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">JAVASCRIPT</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">TAILWIND</span>
+                            <span class="skill-badge">BOOTSTRAP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill bars for programming languages -->
+                <div style="margin-top: 60px;">
+                    <div class="skills-grid">
+                        <!-- Programming Languages Skills -->
+                        <div class="card skill-category">
+                            <h3>Programming Languages Proficiency</h3>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">C / C++</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Web Development Skills -->
+                        <div class="card skill-category">
+                            <h3>Web Development</h3>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Bootstrap/Tailwind</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="download-resume">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Full Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Assignments Page - FIXED -->
+        <section id="assignments" class="page">
+            <div class="container section-content">
+                <div class="section-header">
+                    <h1>Data Science Assignments</h1>
+                    <p>Video explanations of all internal assessments with practical implementations</p>
+                </div>
+                
+                <!-- Assignment Portfolio Grid -->
+                <div class="assignments-portfolio-section">
+                    <div class="assignment-portfolio-grid">
+                        <!-- Box 1: First Internal -->
+                        <div class="card assignment-portfolio-card">
+                            <div class="assignment-portfolio-content">
+                                <h3>First Internal - Video Explanation</h3>
+                                <p>Detailed explanation of the first internal assessment covering concepts with practical examples.</p>
+                                
+                                <div class="assignment-topics">
+                                    <span class="assignment-topic-tag">feedback data</span>
+                                    <span class="assignment-topic-tag">similarity & disimilarity</span>
+                                    <span class="assignment-topic-tag">data preprocessing</span>
+                                    <span class="assignment-topic-tag">compatibility</span>
+                                </div>
+                                
+                                <span class="assignment-status status-completed">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                                
+                                <a href="https://youtube.com/playlist?list=PLyF_jbkqpug7JwW0kEs19BqvJKwCiGnqT&si=aXNgsTlUV-jTfaZV" class="btn btn-primary assignment-btn">
+                                    <i class="fas fa-play-circle"></i> Watch Video
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Box 2: Second Internal -->
+                        <div class="card assignment-portfolio-card">
+                            <div class="assignment-portfolio-content">
+                                <h3>Second Internal - Video Explanation</h3>
+                                <p>Comprehensive walkthrough of the second internal assessment.</p>
+                                
+                                <div class="assignment-topics">
+                                    <span class="assignment-topic-tag">statisttical characterization & metrics</span>
+                                    <span class="assignment-topic-tag">machime learning</span>
+                                    <span class="assignment-topic-tag">neural network</span>
+                                    <span class="assignment-topic-tag">python </span>
+                                </div>
+                                
+                                <span class="assignment-status status-completed">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                                
+                                <a href="https://youtu.be/37WJ4igr5ts?si=dfYYVkrwxnR1DNHU" class="btn btn-primary assignment-btn1">
+                                    <i class="fas fa-play-circle"></i> Watch Video
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Box 3: Third Assessment -->
+                        <div class="card assignment-portfolio-card">
+                            <div class="assignment-portfolio-content">
+                                <h3>Third Assessment - Video Explanation</h3>
+                                <p>In-depth analysis of the third assessment covering algorithm optimization techniques.</p>
+                                
+                                <div class="assignment-topics">
+                                    <span class="assignment-topic-tag">Hypothesis Space</span>
+                                    <span class="assignment-topic-tag">cross validation</span>
+                                    <span class="assignment-topic-tag">performance matrics</span>
+                                    <span class="assignment-topic-tag">KNN</span>
+                                </div>
+                                
+                                <span class="assignment-status status-completed">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                                
+                                <a href="https://youtu.be/Mg57NFkZZuo?si=YU9SN58hVGri_hUc" class="btn btn-primary assignment-btn2">
+                                    <i class="fas fa-play-circle"></i> Watch Video
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Box 4: Fourth Internal -->
+                        <div class="card assignment-portfolio-card">
+                            <div class="assignment-portfolio-content">
+                                <h3>Third Internal - Video Explanation</h3>
+                                <p>Advanced concepts and implementation techniques .</p>
+                                
+                                <div class="assignment-topics">
+                                    <span class="assignment-topic-tag">Set A</span>
+                                    <span class="assignment-topic-tag">Set B</span>
+                                    <span class="assignment-topic-tag">Set C</span>
+                                </div>
+                                
+                                <span class="assignment-status status-completed">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                                
+                                <a href="https://youtube.com/playlist?list=PLyF_jbkqpug7oioiLPsJmWNrr__PrSaqu&si=RmWtVCyhMjTP8TfO" class="btn btn-primary assignment-btn3">
+                                    <i class="fas fa-play-circle"></i> Watch Video
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Box 5: Online Quiz Preparation -->
+                        <div class="card assignment-portfolio-card">
+                            <div class="assignment-portfolio-content">
+                                <h3>Online Quiz - Preparation Guide</h3>
+                                <p>Complete preparation guide for online quizzes .</p>
+                                
+                                <div class="assignment-topics">
+                                    <span class="assignment-topic-tag">aryabhatta batch</span>
+                                    <span class="assignment-topic-tag">Homi bhava batch</span>
+                                    <span class="assignment-topic-tag">kaprekar batch</span>
+                                </div>
+                                
+                                <span class="assignment-status status-progress">
+                                    <i class="fas fa-spinner fa-spin"></i>Completed
+                                </span>
+                                
+                                <a href="https://youtube.com/playlist?list=PLyF_jbkqpug7WIovz4I-3vTpjCeLnAJS4&si=ZS5_ew3OBmy72DgB" class="btn btn-primary assignment-btn4">
+                                    <i class="fas fa-play-circle"></i> Watch Video
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Box 6: End-Semester Preparation -->
+                        <div class="card assignment-portfolio-card">
+                            <div class="assignment-portfolio-content">
+                                <h3>End-Semester - Final Pepar</h3>
+                                <p>Comprehensive end-semester preparation covering all concepts with problem-solving strategies.</p>
+                                
+                                <div class="assignment-topics">
+                                    <span class="assignment-topic-tag">Complete Syllabus</span>
+                                    <span class="assignment-topic-tag">Papers</span>
+                                    <span class="assignment-topic-tag">Important Questions</span>
+                                </div>
+                                
+                                <span class="assignment-status status-progress">
+                                    <i class="fas fa-spinner fa-spin"></i> completed
+                                </span>
+                                
+                                <a href="https://youtu.be/KCnyLEtl6cQ?si=WFlbAxOcKxZYeUQm" class="btn btn-primary assignment-btn5">
+                                    <i class="fas fa-play-circle"></i> Watch Video
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- YouTube Integration -->
+                    <!-- <div class="youtube-integration">
+                        <div class="youtube-header">
+                            <h3>YouTube Upload & Portfolio Integration</h3>
+                            <span class="completed-badge">
+                                <i class="fas fa-check-circle"></i> Completed
+                            </span>
+                        </div>
+                        
+                        <div class="youtube-content">
+                            <div class="youtube-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="youtube-description">
+                                <p>Uploaded all assignment videos to YouTube and integrated them into this portfolio website with detailed descriptions.</p>
+                                
+                                <div class="youtube-tasks">
+                                    <span class="youtube-task-tag">Video Editing</span>
+                                    <span class="youtube-task-tag">Upload</span>
+                                    <span class="youtube-task-tag">Embedding</span>
+                                    <span class="youtube-task-tag">Portfolio Development</span>
+                                </div>
+                                
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fab fa-youtube"></i> View Channel
+                                </a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section id="projects" class="page">
+            <div class="container section-content">
+                <div class="section-header">
+                    <h1>Featured Projects</h1>
+                    <p>Some of my recent and significant projects in web development and programming</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="card project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="E-commerce Website">
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Website</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Bootstrap</span>
+                            </div>
+                            <p>Developed a fully responsive e-commerce website with shopping cart functionality and user authentication.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                                <a href="#" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Task Management App">
+                        </div>
+                        <div class="project-content">
+                            <h3>Beat Visualizing Project</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Web Audio</span>
+                                <span class="project-tag">API and Canvas</span>
+                            </div>
+                            <p>Developed a real-time audio visualization tool highlighting dynamic data structures usage.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                                <a href="#" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Portfolio Website">
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Responsive Design</span>
+                            </div>
+                            <p>Created a responsive portfolio website to showcase projects and skills with modern design and smooth animations.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                                <a href="#" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container section-content">
+                <div class="section-header">
+                    <h1>Get in Touch</h1>
+                    <p>Let's collaborate on exciting web development and programming projects</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="card contact-form-container">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info-side">
+                        <h3>Let's Collaborate</h3>
+                        <p style="margin-bottom: 30px; color: var(--secondary-color);">I'm always open to discussing new opportunities, projects, or just having a chat about programming and web development.</p>
+                        
+                        <div class="card info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>snehasolanki3095@gmail.com</p>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="card info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 99774 75621</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India, M.P,Indore</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Open to freelance projects and collaborations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2023 Sneha. All Rights Reserved.</p>
+            <p class="copyright">Portfolio created as part of Data Science Assignment</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
